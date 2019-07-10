@@ -28,7 +28,10 @@ score ++
 
 
 }
+var results = document.getElementById('results');
+results.innerHTML = ' <h3> Your Score is <span>' + score+ '</span> Out Of 6 </h3> ' ; 
 alert('You scored ' +score + ' out of ' + Total);
+return false;
 
 }
 
